@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_monster_list_image"
+
+    android:orientation="vertical">
+    <!-- 省略其他布局和导入 -->
+    <TextView
+        android:id="@+id/text_view_monster_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_attack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="攻击力"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_text_defense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="防御力"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_text_health"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="生命值"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_text_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="等级"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_save_changes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存修改"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_delete_monster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除怪物"
+        android:textSize="16sp" />
+
+</LinearLayout>

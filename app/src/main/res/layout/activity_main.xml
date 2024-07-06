@@ -1,0 +1,93 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<!-- 水平和垂直的Guideline用于居中 -->
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_constraintGuide_percent="0.5" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.5" />
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_characters"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/button_manage_monster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!-- 按钮1 -->
+<Button
+    android:id="@+id/button_view_characters"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:text="查看角色列表"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:background="@drawable/circular_button_background_4"
+    app:layout_constraintStart_toStartOf="@id/guideline_vertical"
+    app:layout_constraintTop_toTopOf="@id/guideline_horizontal"
+    android:layout_marginStart="-50dp"
+    android:layout_marginTop="-50dp"
+    android:layout_marginLeft="-50dp" />
+
+<!-- 按钮2 -->
+<Button
+    android:id="@+id/button_add_character"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:text="添加角色"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:background="@drawable/circular_button_background_3"
+    app:layout_constraintEnd_toEndOf="@id/guideline_vertical"
+    app:layout_constraintTop_toTopOf="@id/guideline_horizontal"
+    android:layout_marginEnd="-50dp"
+    android:layout_marginTop="-50dp"
+    android:layout_marginRight="-50dp" />
+
+<!-- 按钮3 -->
+<Button
+    android:id="@+id/button_manage_monster"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:text="管理怪物"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:background="@drawable/circular_button_background_2"
+    app:layout_constraintStart_toStartOf="@id/guideline_vertical"
+    app:layout_constraintBottom_toBottomOf="@id/guideline_horizontal"
+    android:layout_marginStart="-50dp"
+    android:layout_marginBottom="-50dp"
+    android:layout_marginLeft="-50dp" />
+
+<Button
+    android:id="@+id/button_add_monster"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:text="增加怪物"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:background="@drawable/circular_button_background_1"
+    app:layout_constraintEnd_toEndOf="@id/guideline_vertical"
+    app:layout_constraintBottom_toBottomOf="@id/guideline_horizontal"
+    android:layout_marginEnd="-50dp"
+    android:layout_marginBottom="-50dp"
+    android:layout_marginRight="-50dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

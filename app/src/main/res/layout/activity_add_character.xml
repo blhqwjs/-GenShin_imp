@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="角色名称"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/edit_text_attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_name"
+        android:hint="属性"
+        android:padding="16dp" />
+
+    <!-- 其他输入字段... -->
+    <EditText
+        android:id="@+id/edit_text_ability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_attribute"
+        android:hint="技能"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/edit_text_element"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_ability"
+        android:hint="元素"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/edit_text_like"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_element"
+        android:hint="喜欢程度"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/edit_text_attack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_like"
+        android:hint="攻击力"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/edit_text_elemental_damage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_attack"
+        android:hint="元素伤害加成"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/edit_text_critical_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_elemental_damage"
+        android:hint="暴击率"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/edit_text_critical_damage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_critical_rate"
+        android:hint="暴击伤害"
+        android:padding="16dp" />
+
+    <!-- 保存按钮 -->
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_critical_damage"
+        android:text="保存"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent">-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edit_text_name"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="角色名称"-->
+    <!--        android:padding="16dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edit_text_attribute"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/edit_text_name"-->
+    <!--        android:hint="属性"-->
+    <!--        android:padding="16dp" />-->
+
+    <!--    &lt;!&ndash; 其他输入字段... &ndash;&gt;-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/edit_text_ability"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/edit_text_attribute"-->
+    <!--        android:hint="技能"-->
+    <!--        android:padding="16dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edit_text_element"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/edit_text_ability"-->
+    <!--        android:hint="元素"-->
+    <!--        android:padding="16dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edit_text_like"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/edit_text_element"-->
+    <!--        android:hint="喜欢程度"-->
+    <!--        android:padding="16dp" />-->
+
+    <!--    &lt;!&ndash; 保存按钮 &ndash;&gt;-->
+    <!--    <Button-->
+    <!--        android:id="@+id/button_save"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/edit_text_like"-->
+    <!--        android:text="保存"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:layout_centerHorizontal="true" />-->
+    <!--</RelativeLayout>-->

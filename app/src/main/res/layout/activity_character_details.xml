@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:scaleType="fitCenter">
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="角色名:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_attribute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="生命值:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_ability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="技能:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_element"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="元素:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="喜欢程度:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_attack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="攻击力:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_elemental_damage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="元素伤害加成:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_critical_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="暴击率:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_critical_damage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="暴击伤害:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button_fight_monster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="打怪"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner_monsters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/YellowSpinner"        />
+
+    <TextView
+        android:id="@+id/text_view_damage_result"
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <!-- 新增的按钮 -->
+    <Button
+        android:id="@+id/button_play_videos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="角色 PV"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_web_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="瞅瞅官网"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_modify_properties"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="修改属性"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_delete_character"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="删除角色"
+        android:textSize="18sp" />
+
+<!--    <Button-->
+<!--        android:id="@+id/button_fight_monster"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:text="打怪"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner_monsters"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        style="@style/YellowSpinner"        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_view_damage_result"-->
+<!--        android:layout_width="270dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="20sp" />-->
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 输入新属性值的 EditText -->
+    <!-- 其他视图组件... -->
+    <EditText
+        android:id="@+id/edit_text_critical_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="暴击率"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_text_critical_damage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="暴击伤害"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_text_new_attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="生命值"
+        android:textSize="18sp" />
+<!--    <EditText-->
+<!--        android:id="@+id/edit_text_new_name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="name"-->
+<!--        android:textSize="18sp" />-->
+
+    <EditText
+        android:id="@+id/edit_text_attack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="攻击力"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_text_elemental_damage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="元素伤害加成"
+        android:textSize="18sp" />
+
+    <!-- 确认修改按钮 -->
+    <Button
+        android:id="@+id/button_confirm_modify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认修改"
+        android:textSize="18sp" />
+</LinearLayout>
